@@ -1,9 +1,9 @@
 {
-    "id": "did:web:gehrmanindustries.com",
+    "id": "did:web:gehrmannindustries.com",
     "@context": [
       "https://www.w3.org/ns/did/v1",
       {
-        "@base": "did:web:gehrmanindustries.com"
+        "@base": "did:web:gehrmannindustries.com"
       }
     ],
     "service": [
@@ -12,7 +12,7 @@
         "type": "LinkedDomains",
         "serviceEndpoint": {
           "origins": [
-            "https://gehrmanindustries.com/"
+            "https://gehrmannindustries.com/"
           ]
         }
       },
@@ -28,21 +28,21 @@
     ],
     "verificationMethod": [
       {
-        "id": "#bcb555806616437286f5def04db9592dvcSigningKey-f5d2b",
-        "controller": "did:web:gehrmanindustries.com",
+        "id": "#b1906721dd0849759f83b9ee6b9c5f7dvcSigningKey-36756",
+        "controller": "did:web:gehrmannindustries.com",
         "type": "EcdsaSecp256k1VerificationKey2019",
         "publicKeyJwk": {
           "crv": "secp256k1",
           "kty": "EC",
-          "x": "ogiRRM9kSbkVf-DmFFE71IXB5LOLDI8Kx2xTjdKufsc",
-          "y": "jWFRZKTuPYDGY1zhFVczXdfGEJU013LxX0jYnWI8ncI"
+          "x": "mIpPEQhHI8VF_0g00qnbOEDNOtKA7tNfuihP3e9JVE0",
+          "y": "37nodiI-aFiBGOLISIacg-KApFUoqoW5t7PjadMnoT0"
         }
       }
     ],
     "authentication": [
-      "#bcb555806616437286f5def04db9592dvcSigningKey-f5d2b"
+      "#b1906721dd0849759f83b9ee6b9c5f7dvcSigningKey-36756"
     ],
     "assertionMethod": [
-      "#bcb555806616437286f5def04db9592dvcSigningKey-f5d2b"
+      "#b1906721dd0849759f83b9ee6b9c5f7dvcSigningKey-36756"
     ]
   }
