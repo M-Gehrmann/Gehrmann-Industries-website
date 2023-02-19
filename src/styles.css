@@ -19,3 +19,10 @@ main > h1 {
   text-align: center;
   font-size: 2em;
 }
+
+img {
+  pointer-events: none;
+  max-width: 100%;
+  min-width: 300px;
+  height: auto;
+}
